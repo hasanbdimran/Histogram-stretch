@@ -1,3 +1,7 @@
+import rasterio
+import matplotlib.pyplot as plt
+import numpy as np
+
 ## Loading 2023 images
 rasterName_2023 = r'/Users/ihasan/Downloads/Baki sir/downloadedImage/L9T1_2022/mosaic14Nov22.tif'
 raster23 = rasterio.open(rasterName_2023)
